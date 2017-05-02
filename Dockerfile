@@ -1,4 +1,4 @@
-FROM mscreations/apache-php
+FROM eboraas/apache
 MAINTAINER Jon Shaulis <jon@mscreations.net>
 
 RUN apt-get update && apt-get -y install php5 php5-gd php-http-request2 php5-imagick php-xdebug vim && apt-get clean && rm -rf /var/lib/apt/lists/*
